@@ -40,7 +40,7 @@ Quand tu modifies une page, pense à modifier aussi sa version dans l'autre lang
 | Bordeaux (secondaire) | `#8F2948` |
 | Bleu nuit (texte) | `#14243A` |
 | Ivoire (fond) | `#FAF7F5` |
-| Vert (AgriFlash seulement) | `#1F7A4D` |
+| Vert profond (AgriFlash seulement, couleur du logo) | `#105024` |
 
 Polices : Playfair Display (titres), Inter (texte), JetBrains Mono (dates), Caveat (manuscrit).
 
