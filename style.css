@@ -178,3 +178,46 @@ figcaption b{color:var(--nuit)}
   .photo-hero .manuscrit{font-size:24px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* Liens de langue (FR / EN) */
+.lang a{font:600 12px var(--texte);padding:6px 12px;border-radius:999px;color:var(--vin);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}
+.lang a[aria-current]{background:var(--vin);color:#fff}
+
+/* Pages projets */
+.en-bref{background:var(--blanc);border:1px solid var(--trait);border-radius:18px;padding:24px}
+.en-bref dl{margin:0;display:grid;gap:14px}
+.en-bref dt{font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--vin)}
+.en-bref dd{margin:2px 0 0;font-size:14.5px}
+.cas-hero.vin .etiquette{background:var(--bordeaux)}
+.visuel-ico{aspect-ratio:3/2;border-radius:20px;background:rgba(255,255,255,.08);display:grid;place-items:center;color:#fff}
+.visuel-ico .i{width:96px;height:96px;stroke-width:1.2;opacity:.9}
+.suivants{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+
+/* Page CV */
+.cv-actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.cv{background:#fff;color:var(--nuit);max-width:860px;margin:0 auto 40px;padding:44px 48px;border:1px solid var(--trait);border-radius:12px;font-size:13.5px;line-height:1.5}
+.cv h1{font-size:32px;margin:0 0 4px}
+.cv .accroche{font-size:15px;color:var(--vin);font-weight:600;margin:0 0 8px}
+.cv .coord{font-size:12.5px;color:var(--gris);display:flex;flex-wrap:wrap;gap:4px 14px;margin-bottom:6px}
+.cv .coord a{color:var(--gris)}
+.cv h2{font-family:var(--titre);font-size:16px;color:var(--vin);border-bottom:1.5px solid var(--vin);padding-bottom:3px;margin:18px 0 8px;text-transform:uppercase;letter-spacing:.04em}
+.cv .ligne{display:flex;justify-content:space-between;gap:12px;font-weight:600}
+.cv .ligne span:last-child{font:500 12px var(--mono);color:var(--gris);white-space:nowrap}
+.cv ul{margin:3px 0 8px;padding-left:18px}
+.cv li{margin-bottom:2px}
+.cv p{margin:3px 0 8px}
+.cv .deux{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+@media (max-width:640px){.cv{padding:24px 18px}.cv .deux{grid-template-columns:1fr}}
+@media print{
+  @page{size:A4;margin:12mm 13mm}
+  body{background:#fff}
+  .top,.pied,.cv-actions,.pas-imprimer{display:none!important}
+  main.wrap{padding:0!important;max-width:none}
+  .cv{border:0;padding:0;margin:0;max-width:none;font-size:10.6px;line-height:1.38}
+  .cv h1{font-size:24px}
+  .cv h2{font-size:12.5px;margin:10px 0 5px;break-after:avoid}
+  .cv .accroche{font-size:12px}
+  .cv .coord{font-size:10px}
+  .cv a{color:inherit;text-decoration:none}
+  .cv .bloc-cv{break-inside:avoid}
+}
