@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgriFlash — Étude de cas · KODZO Yayra Gracia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10Z"/><path d="M2 21c0-3 1.9-5.4 5.1-6 2.4-.5 4.9-2 5.9-3"/></symbol>
+  <symbol id="target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></symbol>
+  <symbol id="user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-6"/></symbol>
+  <symbol id="code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+  <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Accueil">
+      <span class="mono-kg" aria-hidden="true">KG</span>
+      <span><b>KODZO Yayra Gracia</b><small>Build · Lead · Create Impact</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="index.html#projets" aria-current="page">Projets</a>
+      <a href="index.html#parcours">Parcours</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div style="display:flex;gap:10px;align-items:center">
+      <div class="lang" role="group" aria-label="Langue">
+        <button type="button" aria-pressed="true">FR</button>
+        <button type="button" aria-pressed="false">EN</button>
+      </div>
+      <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');var o=n.classList.toggle('ouvert');this.setAttribute('aria-expanded',o)"><svg class="i"><use href="#menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="cas-hero" style="padding:0">
+  <div class="wrap">
+    <div>
+      <a class="retour" href="index.html#projets"><svg class="i"><use href="#back"/></svg>Retour aux projets</a><br>
+      <span class="etiquette">ÉTUDE DE CAS</span>
+      <h1>AgriFlash</h1>
+      <p>Une plateforme AgriTech pour connecter les producteurs aux acheteurs et réduire les pertes post-récolte.</p>
+      <div class="chiffres"><span>1er prix · TCC Hack &amp; Defend 2026</span><span>NanaTech 2026</span><span>Startup Loop</span></div>
+    </div>
+    <figure>
+      <img src="photos/pitch-agriflash.jpg" alt="Gracia présente AgriFlash au micro" style="object-position:center 30%">
+      <figcaption>Présentation d'AgriFlash, 23 septembre 2026</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="wrap cas-grille">
+    <div>
+      <div class="rub"><h3><svg class="i"><use href="#target"/></svg>Le problème</h3>
+        <p>Les petits producteurs maraîchers perdent une partie de leurs récoltes faute d'acheteurs trouvés à temps. Les produits périssables se détériorent, et avec eux une partie des revenus des familles.</p></div>
+      <div class="rub"><h3><svg class="i"><use href="#bulb"/></svg>La solution</h3>
+        <p>Le producteur publie sa récolte en moins d'une minute : produit, quantité, localisation, niveau d'urgence. L'acheteur trouve les offres sur une carte et le contacte directement sur WhatsApp.</p></div>
+      <div class="rub"><h3><svg class="i"><use href="#user"/></svg>Cible &amp; proposition de valeur</h3>
+        <ul><li>Petits producteurs maraîchers</li><li>Acheteurs : ménages, restaurants, commerçants</li><li>Moins de pertes, plus de revenus, des produits frais plus accessibles</li></ul></div>
+    </div>
+    <div>
+      <div class="rub"><h3><svg class="i"><use href="#user"/></svg>Mon rôle</h3>
+        <p>Fondatrice. J'ai porté AgriFlash seule depuis le début : recherche terrain, conception, développement, pitch, réseaux sociaux et modèle économique.</p></div>
+      <div class="rub"><h3><svg class="i"><use href="#chart"/></svg>Démarche &amp; évolution</h3>
+        <ul>
+          <li><b>2023</b> — au CDEJ Béthel, je vois des tomates, piments et salades se perdre faute d'acheteurs.</li>
+          <li><b>4 juillet 2026</b> — 1er prix au TCC Hack &amp; Defend avec un prototype web.</li>
+          <li><b>Août–octobre 2026</b> — programme Startup Loop · Innov'Up.</li>
+          <li><b>Septembre 2026</b> — sélection NanaTech, construction du MVP.</li>
+          <li><b>3 octobre 2026</b> — module UX/UI NanaTech : parcours utilisateurs et architecture.</li>
+        </ul></div>
+      <div class="rub"><h3><svg class="i"><use href="#code"/></svg>Prototype &amp; choix techniques</h3>
+        <ul><li>Prototype : HTML, CSS, JavaScript, Leaflet.js, Chart.js, GitHub Pages</li><li>MVP : React, Node.js, Express, PostgreSQL</li><li>Pensé pour le téléphone et les connexions faibles</li></ul></div>
+    </div>
+    <blockquote class="citation" style="margin:0">AgriFlash, ce n'est pas qu'une plateforme : c'est un pont entre ceux qui produisent et ceux qui ont besoin de se nourrir.</blockquote>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="bandeau"><span style="display:flex;align-items:center;gap:14px"><svg class="i" style="width:30px;height:30px"><use href="#leaf"/></svg><b>AgriFlash — Moins de gaspillage. Plus de valeur.</b></span>
+      <a class="btn contour" href="https://graciayayrakodzo.github.io/TCCHackDefend2026_AgriFlash/">Voir la démo <svg class="i"><use href="#arrow"/></svg></a></div>
+  </div>
+</section>
+
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="titre-sec"><h2>En images</h2></div>
+    <div class="galerie">
+      <figure><img src="photos/tcc-cheque-vainqueur.jpg" alt="Gracia reçoit le chèque de vainqueur du TCC Hack &amp; Defend" loading="lazy"><figcaption><b>Vainqueure du TCC Hack &amp; Defend</b> · 4 juillet 2026</figcaption></figure>
+      <figure><img src="photos/tcc-pitch.jpg" alt="Gracia présente AgriFlash devant le jury" loading="lazy"><figcaption><b>Pitch devant le jury</b> · TCC Hack &amp; Defend 2026</figcaption></figure>
+      <figure><img src="photos/atelier-tableau.jpg" alt="Gracia écrit le parcours utilisateur d'AgriFlash au tableau" loading="lazy"><figcaption><b>Module UX/UI : parcours utilisateurs et architecture</b> · NanaTech, 3 octobre 2026</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="titre-sec"><h2>Prochaines étapes</h2></div>
+    <div class="etapes">
+      <div class="carte etape"><span class="num">01</span><div><h3>Finaliser le MVP</h3><p>Pitch final NanaTech le 31 octobre 2026.</p></div></div>
+      <div class="carte etape"><span class="num">02</span><div><h3>Tester sur le terrain</h3><p>Un producteur publie, un acheteur réel répond.</p></div></div>
+      <div class="carte etape"><span class="num">03</span><div><h3>Lancer</h3><p>Mise en ligne et communication auprès des premiers utilisateurs.</p></div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="pied">
+  <div class="wrap">
+    <div><h2>Restons connectés</h2><p>Une question sur AgriFlash, un partenariat ?</p>
+      <div class="actions" style="margin:0"><a class="btn plein" href="mailto:grkodzo07@gmail.com">Me contacter <svg class="i"><use href="#arrow"/></svg></a></div></div>
+    <div class="copy"><span>© 2026 KODZO Yayra Gracia · Lomé, Togo</span><a href="index.html" style="color:#fff">Retour à l'accueil</a></div>
+  </div>
+</footer>
+</body>
+</html>
