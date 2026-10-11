@@ -14,6 +14,9 @@ projet-agriflash.html   Étude de cas AgriFlash
 projet-handoo.html      Page projet HANDOO
 projet-ecocomfort.html  Page projet EcoComfort
 projet-acadpro.html     Page projet AcadPro
+parcours.html           Frise du parcours, année par année (avec filtres)
+engagements.html        Engagements : MoNaJeL, English Action Club, CDEJ Béthel, SHIFT…
+distinctions.html       Prix, programmes de sélection, certifications
 cv.html                 CV en ligne (imprimable)
 cv/                     CV en PDF (FR et EN)
 en/                     Version anglaise : mêmes pages, mêmes noms de fichiers
@@ -81,7 +84,7 @@ GitHub Pages met le site à jour en 1 à 2 minutes.
 - [x] Pages HANDOO, EcoComfort et AcadPro.
 - [ ] Réactiver GitHub Pages sur le dépôt `TCCHackDefend2026_AgriFlash` (lien « Voir la démo »).
 - [ ] Ajouter des captures d'écran d'AgriFlash et de HANDOO.
-- [ ] Pages détaillées : parcours, engagements, distinctions.
+- [x] Pages détaillées : parcours, engagements, distinctions.
 - [ ] Migration vers Astro + TypeScript + Tailwind.
 
 ## Confidentialité

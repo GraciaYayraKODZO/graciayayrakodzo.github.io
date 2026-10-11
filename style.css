@@ -237,3 +237,43 @@ figcaption b{color:var(--nuit)}
 .v-prec{left:18px;top:50%;transform:translateY(-50%)}
 .v-suiv{right:18px;top:50%;transform:translateY(-50%)}
 @media (max-width:560px){.v-prec,.v-suiv{top:auto;bottom:18px;transform:none}.visionneuse img{max-height:70vh}}
+
+/* Pages détaillées */
+.intro{padding:48px 0 28px}
+.intro h1{margin-top:14px}
+.annee{display:grid;grid-template-columns:120px 1fr;gap:24px;margin-bottom:12px}
+.annee h2{font-size:34px;color:var(--vin);position:sticky;top:90px;align-self:start}
+.frise{list-style:none;margin:0;padding:0 0 12px 24px;border-left:2px solid var(--trait)}
+.evt{position:relative;display:grid;grid-template-columns:110px 1fr;gap:16px;padding:12px 0 18px}
+.evt::before{content:"";position:absolute;left:-31px;top:18px;width:12px;height:12px;border-radius:50%;background:var(--ivoire);border:3px solid var(--vin)}
+.evt-date{font:500 13px var(--mono);color:var(--gris);padding-top:4px}
+.evt h3{margin:4px 0 2px;font-size:16.5px}
+.evt p{margin:0;font-size:14.5px;color:#3A4556}
+.evt-tag{display:inline-block;font:600 11px var(--texte);text-transform:uppercase;letter-spacing:.06em;padding:3px 10px;border-radius:999px;background:var(--rose);color:var(--vin)}
+.t-award{background:var(--vin);color:#fff}
+.t-proj{background:var(--vert-clair);color:var(--vert)}
+.t-edu,.t-cert{background:#E7EAF0;color:var(--nuit)}
+.grille-eng{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+.eng{padding:26px}
+.eng-tete{display:flex;gap:14px;align-items:flex-start;margin-bottom:6px}
+.eng h2{font-size:21px}
+.eng .role{margin:4px 0 0;font:500 13px var(--mono);color:var(--vin)}
+.eng ul{padding-left:20px;font-size:14.5px;color:#3A4556}
+.eng li{margin-bottom:6px}
+.eng-photo{margin-top:12px}
+.eng-photo img{aspect-ratio:auto}
+.liste-prix{display:flex;flex-direction:column;gap:20px}
+.prix{background:var(--blanc);border:1px solid var(--trait);border-left:0;border-radius:18px;padding:28px;display:grid;grid-template-columns:1fr;gap:28px;align-items:center;position:relative;overflow:hidden}
+.prix::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--vin)}
+.prix.avec-photo{grid-template-columns:1.2fr 1fr}
+.prix h2{font-size:26px;margin:4px 0}
+.prix .role{margin:0 0 10px;color:var(--gris);font-size:14.5px}
+.prix p{font-size:15px}
+.prix figure img{aspect-ratio:4/3;object-fit:cover}
+@media (max-width:820px){
+  .annee{grid-template-columns:1fr;gap:4px}
+  .annee h2{position:static}
+  .evt{grid-template-columns:1fr;gap:2px}
+  .grille-eng{grid-template-columns:1fr}
+  .prix.avec-photo{grid-template-columns:1fr}
+}
