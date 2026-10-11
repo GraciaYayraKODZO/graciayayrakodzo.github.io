@@ -124,7 +124,7 @@ figcaption b{color:var(--nuit)}
 .etiquette{display:inline-block;background:var(--vert);color:#fff;font:600 12px var(--mono);letter-spacing:.08em;padding:6px 12px;border-radius:6px;margin:14px 0 6px}
 .cas-hero h1{color:#fff;margin-top:8px}
 .cas-hero p{font-size:19px;opacity:.92;max-width:520px}
-.cas-hero img{border-radius:20px;aspect-ratio:3/2;object-fit:cover}
+.cas-hero figure img{border-radius:20px;aspect-ratio:3/2;object-fit:cover}
 .cas-hero figcaption{color:#C9D2DE;padding:8px 2px 0;font-size:13px}
 .cas-hero figure{background:none;border:0}
 .chiffres{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
