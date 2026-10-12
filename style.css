@@ -277,3 +277,4 @@ figcaption b{color:var(--nuit)}
   .grille-eng{grid-template-columns:1fr}
   .prix.avec-photo{grid-template-columns:1fr}
 }
+.t-vie{background:var(--nuit);color:#fff}
