@@ -990,12 +990,16 @@ div.maintenant .carte .ico {
 }
 
 /* ── EN BREF ─────────────────────────────────────────────── */
+.cas-grille aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-self: start;
+}
 .en-bref {
   background: var(--rose);
   border-radius: 20px;
   padding: 24px;
-  position: sticky;
-  top: 80px;
 }
 .en-bref h2 {
   margin-bottom: 1rem;
