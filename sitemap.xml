@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/projet-agriflash.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/projet-agriflash.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/projet-agriflash.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/projet-handoo.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/projet-handoo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/projet-handoo.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/projet-ecocomfort.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/projet-ecocomfort.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/projet-ecocomfort.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/projet-acadpro.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/projet-acadpro.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/projet-acadpro.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/parcours.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/parcours.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/parcours.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/engagements.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/engagements.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/engagements.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/distinctions.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/distinctions.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/distinctions.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://graciayayrakodzo.github.io/cv.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://graciayayrakodzo.github.io/cv.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://graciayayrakodzo.github.io/en/cv.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
